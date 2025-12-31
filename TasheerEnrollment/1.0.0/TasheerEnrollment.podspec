@@ -25,7 +25,7 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # Vendored binaries 
   s.vendored_frameworks = [
-    '*/TasheerEnrollment.xcframework',
+    'TasheerEnrollment.xcframework',
     '**/Frameworks/aaPrintScannerLic.framework',
     '**/Frameworks/aaPrintScannerFw.framework'
   ]
