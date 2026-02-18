@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 s.source = {
   :http   => 'https://github.com/tasheercom/tasheer-podspecs/releases/download/v1.1.0/TasheerEnrollmentSDK-1.1.0.zip',
   :type   => 'zip',
-  :sha256 => 'e9144064e587ffb6a0ea178ca2818039fee1c065db42c4df2a139977628553c8'
+  :sha256 => 'b0e4f23fe7e18b48502b2419f5e1c956584d74477561cec9ca7bb7eeb3c3ba1c'
 }
 
 # If any vendored binary lacks arm64 simulator slice
