@@ -2,11 +2,11 @@
 Pod::Spec.new do |s|
   s.name         = 'TasheerEnrollment'
   s.version      = '1.0.0'
-  s.summary      = 'TasheerEnrollment Framework, Bio.'
+  s.summary      = 'Tasheer Enrollment Framework, BioSDK.'
   s.description  = 'Precompiled XCFramework for enrollment workflows.'
   s.homepage     = 'https://www.tasheer.com/'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Amr Elabd' => 'aelabd@tasheer.com' }
+  s.author       = { 'Tasheer Team' => 'aelabd@tasheer.com' }
 
   s.ios.deployment_target = '12.0'
   s.swift_version    = '5.0'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 s.source = {
   :http   => 'https://github.com/tasheercom/tasheer-podspecs/releases/download/v1.0.0/TasheerEnrollmentSDK-1.0.0.zip',
   :type   => 'zip',
-  :sha256 => '67b584de17e11eaf609a768baaa504bb7f06bd2b11f6c2b774fb73c36a3ece0c'
+  :sha256 => 'b66bd8ecada7a03c00053ca605fbf71c436344277b794b90076d895de369af4d'
 }
 
 # If any vendored binary lacks arm64 simulator slice
@@ -26,8 +26,7 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # Vendored binaries 
   s.vendored_frameworks = [
     '**/TasheerEnrollment.xcframework',
-    '**/Frameworks/aaPrintScannerLic.framework',
-    '**/Frameworks/aaPrintScannerFw.framework'
+    '**/Frameworks/aaPrintScannerFw.xcframework'
   ]
 
   # Resource bundle (privacy manifest, assets, localization, licenses)
